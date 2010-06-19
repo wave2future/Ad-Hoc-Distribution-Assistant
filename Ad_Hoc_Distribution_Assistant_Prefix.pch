@@ -4,4 +4,11 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
+
+	// Remove NSLog on release builds
+	#ifndef __OPTIMIZE__
+	#define NSLog(...) NSLog(__VA_ARGS__)
+	#else
+	#define NSLog(...) {}
+	#endif
 #endif

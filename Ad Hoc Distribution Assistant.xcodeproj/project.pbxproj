@@ -12,7 +12,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		A390A76011CD49BF004F9D8B /* Package.m in Sources */ = {isa = PBXBuildFile; fileRef = A390A75F11CD49BF004F9D8B /* Package.m */; };
+		A390A76011CD49BF004F9D8B /* Bundler.m in Sources */ = {isa = PBXBuildFile; fileRef = A390A75F11CD49BF004F9D8B /* Bundler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Ad_Hoc_Distribution_Assistant-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ad_Hoc_Distribution_Assistant-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ad Hoc Distribution Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ad Hoc Distribution Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A390A75E11CD49BF004F9D8B /* Package.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Package.h; sourceTree = "<group>"; };
-		A390A75F11CD49BF004F9D8B /* Package.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Package.m; sourceTree = "<group>"; };
+		A390A75E11CD49BF004F9D8B /* Bundler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bundler.h; sourceTree = "<group>"; };
+		A390A75F11CD49BF004F9D8B /* Bundler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bundler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +123,8 @@
 		A390A75D11CD49A6004F9D8B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A390A75E11CD49BF004F9D8B /* Package.h */,
-				A390A75F11CD49BF004F9D8B /* Package.m */,
+				A390A75E11CD49BF004F9D8B /* Bundler.h */,
+				A390A75F11CD49BF004F9D8B /* Bundler.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* Ad_Hoc_Distribution_AssistantAppDelegate.m in Sources */,
-				A390A76011CD49BF004F9D8B /* Package.m in Sources */,
+				A390A76011CD49BF004F9D8B /* Bundler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
