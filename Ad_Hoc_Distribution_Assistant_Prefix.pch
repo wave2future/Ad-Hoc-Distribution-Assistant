@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Ad Hoc Distribution Assistant' target in the 'Ad Hoc Distribution Assistant' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
