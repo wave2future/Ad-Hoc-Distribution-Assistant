@@ -1,0 +1,423 @@
+TAd Hoc Distribution Assistant
+v7
+r0
+t298730003.090289
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Info.plist" Ad_Hoc_Distribution_Assistant-Info.plist
+cCopyStringsFile "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/English.lproj/MainMenu.xib"
+cCpResource "build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/Icon.icns" Icon.icns
+cProcessPCH /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch.gch Ad_Hoc_Distribution_Assistant_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/main.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Ad_Hoc_Distribution_AssistantAppDelegate.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_AssistantAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/IPABundler.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/IPABundler.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressView.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/MacOS/Ad Hoc Distribution Assistant" normal x86_64
+cTouch "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_AssistantAppDelegate.h
+c000000004C1E084C00000000000003D7
+t1277036620
+s983
+i<Cocoa/Cocoa.h>
+i"IPABundler.h"
+i"ProgressSheet.h"
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_AssistantAppDelegate.m
+c000000004C1E0A300000000000000EAA
+t1277037104
+s3754
+i"Ad_Hoc_Distribution_AssistantAppDelegate.h"
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_Assistant_Prefix.pch
+c000000004C1D4AFA0000000000000144
+t1276988154
+s324
+i<Cocoa/Cocoa.h>
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Bundler.h
+c000000004C1D46B300000000000001BD
+t1276987059
+s445
+i<Cocoa/Cocoa.h>
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Bundler.m
+c000000004C1D4F160000000000000A3F
+t1276989206
+s2623
+i"Bundler.h"
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/English.lproj/InfoPlist.strings
+c000000004C1E0AC2000000000000002D
+t1277037250
+s45
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/English.lproj/MainMenu.xib
+c000000004C1DE913000000000001563A
+t1277028627
+s87610
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/IPABundler.h
+c000000004C1DEEA700000000000002E8
+t1277030055
+s744
+i<Cocoa/Cocoa.h>
+i"IPABundlerDelegate.h"
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/IPABundler.m
+c000000004C1E07E30000000000000F5D
+t1277036515
+s3933
+i"IPABundler.h"
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/IPABundlerDelegate.h
+c000000004C1D5CD50000000000000143
+t1276992725
+s323
+i<Cocoa/Cocoa.h>
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Icon.icns
+c000000004C1E0A560000000000004075
+t1277037142
+s16501
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.h
+c000000004C1D44BB00000000000001BD
+t1276986555
+s445
+i<Cocoa/Cocoa.h>
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m
+c000000004C1D464200000000000005EC
+t1276986946
+s1516
+i"Package.h"
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheet.h
+c000000004C1D61F400000000000001A7
+t1276994036
+s423
+i<Cocoa/Cocoa.h>
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheet.m
+c000000004C1D575100000000000001B4
+t1276991313
+s436
+i"ProgressSheet.h"
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheetController.h
+c000000004C1D60DD00000000000000FE
+t1276993757
+s254
+i<Cocoa/Cocoa.h>
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheetController.m
+c000000004C1D61C60000000000000144
+t1276993990
+s324
+i"ProgressSheetController.h"
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressView.h
+c000000004C1D5A130000000000000156
+t1276992019
+s342
+i<Cocoa/Cocoa.h>
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressView.m
+c000000004C1D61D500000000000000FF
+t1276994005
+s255
+i"ProgressSheet.h"
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Ad Hoc Distribution Assistant.LinkFileList
+c000000004C1E0A8500000000000002BA
+t1277037189
+s698
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Ad_Hoc_Distribution_AssistantAppDelegate.o
+t1277037193
+s61832
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Bundler.o
+t1276989224
+s18812
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/IPABundler.o
+t1277037193
+s28120
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Package.o
+t2
+s0
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressSheet.o
+t2
+s0
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressSheetController.o
+t1276993976
+s15348
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressView.o
+t1277037193
+s16936
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/main.o
+t1277037193
+s5008
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app
+t1277037193
+s102
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Info.plist
+t1277037189
+s1005
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/MacOS/Ad Hoc Distribution Assistant
+t1277037193
+s45000
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/PkgInfo
+t1277037189
+s8
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1277037189
+s92
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/English.lproj/MainMenu.nib
+t1277037189
+s15955
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/Icon.icns
+t1277037189
+s16501
+
+N/Users/Yves/GitHub/Ad Hoc Distribution Assistant/main.m
+c000000004C1D0BED0000000000000107
+t1276972013
+s263
+i<Cocoa/Cocoa.h>
+
+N/var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch.gch
+t1277037192
+s54265616
+
+N/var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-gwokqicjhpcqtscldgffqbmqztyt/Ad_Hoc_Distribution_Assistant_Prefix.pch.gch
+t1276989066
+s54265616
+
+NAd_Hoc_Distribution_Assistant-Info.plist
+c000000004C1E0A7100000000000003EF
+t1277037169
+s1007
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298730003#298730003#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Ad_Hoc_Distribution_AssistantAppDelegate.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_AssistantAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298729992.993827
+e298729993.176599
+r1
+xCompileC
+xbuild/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Ad_Hoc_Distribution_AssistantAppDelegate.o
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_AssistantAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_AssistantAppDelegate.m298729992#298729993#0(0"0(0#0#91"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_AssistantAppDelegate.m4300911832#2094"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-generated-files.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-own-target-headers.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-all-target-headers.hmap" -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-project-headers.hmap" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/include" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources/x86_64" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources" -include /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_AssistantAppDelegate.m" -o "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Ad_Hoc_Distribution_AssistantAppDelegate.o"0#
+
+CCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Bundler.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Bundler.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298682023.777436
+e298682024.148999
+r1
+xCompileC
+xbuild/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Bundler.o
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Bundler.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Yves/GitHub/Ad Hoc Distribution Assistant/Bundler.m298682023#298682024#0(0"0(0#0#58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Bundler.m4300911832#2028"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-generated-files.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-own-target-headers.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-all-target-headers.hmap" -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-project-headers.hmap" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/include" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources/x86_64" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources" -include /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-gwokqicjhpcqtscldgffqbmqztyt/Ad_Hoc_Distribution_Assistant_Prefix.pch -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Bundler.m" -o "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Bundler.o"0#
+
+CCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/IPABundler.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/IPABundler.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298729993.121038
+e298729993.303989
+r1
+xCompileC
+xbuild/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/IPABundler.o
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/IPABundler.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Yves/GitHub/Ad Hoc Distribution Assistant/IPABundler.m298729993#298729993#0(0"0(0#0#61"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/IPABundler.m4300911832#2034"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-generated-files.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-own-target-headers.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-all-target-headers.hmap" -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-project-headers.hmap" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/include" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources/x86_64" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources" -include /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/IPABundler.m" -o "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/IPABundler.o"0#
+
+CCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Package.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298679356.458473
+e298679356.593215
+r0
+xCompileC
+xbuild/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Package.o
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m: In function '-[Package buildIpa]':
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:49: error: 'srcPath' undeclared (first use in this function)
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:49: error: (Each undeclared identifier is reported only once
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:49: error: for each function it appears in.)
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:49: error: 'dstPath' undeclared (first use in this function)
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:55: error: 'copyItemAtURL' undeclared (first use in this function)
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:55: error: expected ';' before ':' token
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:64: error: expected declaration or statement at end of input
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:64: warning: control reaches end of non-void function
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m: At top level:
+o/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:64: warning: '@end' missing in implementation context
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+lSLF07#2@66"Compile /Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m298679356#298679356#0(1591"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m: In function '-[Package buildIpa]':/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:49: error: 'srcPath' undeclared (first use in this function)/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:49: error: (Each undeclared identifier is reported only once/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:49: error: for each function it appears in.)/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:49: error: 'dstPath' undeclared (first use in this function)/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:55: error: 'copyItemAtURL' undeclared (first use in this function)/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:55: error: expected ';' before ':' token/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:64: error: expected declaration or statement at end of input/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:64: warning: control reaches end of non-void function/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m: At top level:/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m:64: warning: '@end' missing in implementation context{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_38(4@49"'srcPath' undeclared (first use in this function)298679356#95#120#0(6@58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m298679287#49#0#49#0#43"'*' undeclared (first use in this function)0(4@49"'dstPath' undeclared (first use in this function)298679356#439#120#0(6@58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m298679287#49#0#49#0#43"'*' undeclared (first use in this function)0(4@55"'copyItemAtURL' undeclared (first use in this function)298679356#559#126#0(6@58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m298679287#55#0#55#0#43"'*' undeclared (first use in this function)0(4@29"Expected ';' before ':' token298679356#685#100#0(6@58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m298679287#55#0#55#0#19"expected * before *0(4@49"Expected declaration or statement at end of input298679356#785#120#0(6@58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m298679287#64#0#64#0#49"expected declaration or statement at end of input0(22@40"Control reaches end of non-void function298679356#905#113#0(6@58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m298679287#64#0#64#0#40"control reaches end of non-void function0(23@13"At top level:298679356#1018#74#0(6@58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m298679287#0#0#0#0#0"0(22@40"'@end' missing in implementation context298679356#1092#113#0(6@58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m298679287#64#0#64#0#40"'@end' missing in implementation context0(0#0#58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m4300911832#2028"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-generated-files.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-own-target-headers.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-all-target-headers.hmap" -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-project-headers.hmap" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/include" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources/x86_64" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources" -include /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-gwokqicjhpcqtscldgffqbmqztyt/Ad_Hoc_Distribution_Assistant_Prefix.pch -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Package.m" -o "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Package.o"1#
+
+CCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressSheet.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheet.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressSheetController.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheetController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298686776.329674
+e298686776.624109
+r1
+xCompileC
+xbuild/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressSheetController.o
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheetController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheetController.m298686776#298686776#0(0"0(0#0#74"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheetController.m4300911832#2060"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-generated-files.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-own-target-headers.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-all-target-headers.hmap" -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-project-headers.hmap" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/include" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources/x86_64" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources" -include /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressSheetController.m" -o "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressSheetController.o"0#
+
+CCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressView.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressView.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298729993.176699
+e298729993.331409
+r1
+xCompileC
+xbuild/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressView.o
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressView.m298729993#298729993#0(0"0(0#0#63"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressView.m4300911832#2038"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-generated-files.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-own-target-headers.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-all-target-headers.hmap" -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-project-headers.hmap" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/include" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources/x86_64" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources" -include /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/ProgressView.m" -o "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/ProgressView.o"0#
+
+CCompileC "build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/main.o" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298729992.992540
+e298729993.120835
+r1
+xCompileC
+xbuild/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/main.o
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Yves/GitHub/Ad Hoc Distribution Assistant/main.m298729992#298729993#0(0"0(0#0#55"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/main.m4300911832#2022"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-generated-files.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-own-target-headers.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-all-target-headers.hmap" -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-project-headers.hmap" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/include" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources/x86_64" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources" -include /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/main.m" -o "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/English.lproj/MainMenu.xib"
+s298729989.522775
+e298729989.896620
+r1
+xCompileXIB
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib298729989#298729989#0(0"0(0#0#75"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/English.lproj/MainMenu.xib4300911832#385"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/English.lproj/MainMenu.xib"0#
+
+CCopyStringsFile "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s298729989.522015
+e298729989.709874
+r1
+xCopyStringsFile
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings298729989#298729989#0(0"0(0#0#80"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/English.lproj/InfoPlist.strings4300911832#411"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/English.lproj"0#
+
+CCpResource "build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/Icon.icns" Icon.icns
+s298729989.709958
+e298729989.794564
+r1
+xCpResource
+xbuild/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources/Icon.icns
+xIcon.icns
+lSLF07#2@14"Copy Icon.icns298729989#298729989#0(0"0(0#0#58"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Icon.icns4300911832#383"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Icon.icns" "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Resources"0#
+
+CLd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/MacOS/Ad Hoc Distribution Assistant" normal x86_64
+s298729993.331498
+e298729993.365079
+r1
+xLd
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/MacOS/Ad Hoc Distribution Assistant
+xnormal
+xx86_64
+lSLF07#2@144"Link /Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/MacOS/Ad Hoc Distribution Assistant298729993#298729993#0(0"0(0#0#0"4300911832#712"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" -filelist "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Objects-normal/x86_64/Ad Hoc Distribution Assistant.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -o "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/MacOS/Ad Hoc Distribution Assistant"0#
+
+CProcessInfoPlistFile "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Info.plist" Ad_Hoc_Distribution_Assistant-Info.plist
+s298729989.513829
+e298729989.521939
+r1
+xProcessInfoPlistFile
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Info.plist
+xAd_Hoc_Distribution_Assistant-Info.plist
+lSLF07#2@48"Process Ad_Hoc_Distribution_Assistant-Info.plist298729989#298729989#0(0"0(0#0#89"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_Assistant-Info.plist4300911832#412"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    builtin-infoPlistUtility Ad_Hoc_Distribution_Assistant-Info.plist -genpkginfo "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch.gch Ad_Hoc_Distribution_Assistant_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298729989.896719
+e298729992.992257
+r1
+xProcessPCH
+x/var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch.gch
+xAd_Hoc_Distribution_Assistant_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Precompile Ad_Hoc_Distribution_Assistant_Prefix.pch298729989#298729992#0(0"0(0#0#89"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_Assistant_Prefix.pch4300911832#1894"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-generated-files.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-own-target-headers.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-all-target-headers.hmap" -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-project-headers.hmap" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/include" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources/x86_64" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources" -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_Assistant_Prefix.pch" -o /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-duxubqjmbhirwsdnfqpgxduthvkm/Ad_Hoc_Distribution_Assistant_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-gwokqicjhpcqtscldgffqbmqztyt/Ad_Hoc_Distribution_Assistant_Prefix.pch.gch Ad_Hoc_Distribution_Assistant_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s298681863.380818
+e298681866.064583
+r1
+xProcessPCH
+x/var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-gwokqicjhpcqtscldgffqbmqztyt/Ad_Hoc_Distribution_Assistant_Prefix.pch.gch
+xAd_Hoc_Distribution_Assistant_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Precompile Ad_Hoc_Distribution_Assistant_Prefix.pch298681863#298681866#0(0"0(0#0#89"/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_Assistant_Prefix.pch4300911832#1894"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-generated-files.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-own-target-headers.hmap" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-all-target-headers.hmap" -iquote "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/Ad Hoc Distribution Assistant-project-headers.hmap" "-F/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/include" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources/x86_64" "-I/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Ad Hoc Distribution Assistant.build/Debug/Ad Hoc Distribution Assistant.build/DerivedSources" -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/Ad_Hoc_Distribution_Assistant_Prefix.pch" -o /var/folders/gV/gVNwlDdREaOUotJ-KWhK1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Ad_Hoc_Distribution_Assistant_Prefix-gwokqicjhpcqtscldgffqbmqztyt/Ad_Hoc_Distribution_Assistant_Prefix.pch.gch0#
+
+CTouch "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app"
+s298729993.365165
+e298729993.367571
+r1
+xTouch
+x/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app
+lSLF07#2@100"Touch /Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app298729993#298729993#0(0"0(0#0#0"4300911832#177"    cd "/Users/Yves/GitHub/Ad Hoc Distribution Assistant"    /usr/bin/touch -c "/Users/Yves/GitHub/Ad Hoc Distribution Assistant/build/Debug/Ad Hoc Distribution Assistant.app"0#
+
