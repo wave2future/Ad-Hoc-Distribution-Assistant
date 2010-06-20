@@ -10,7 +10,7 @@
 
 @implementation Ad_Hoc_Distribution_AssistantAppDelegate
 
-@synthesize window, ipaBundler, artworkImageView, saveMenuItem, saveButton;
+@synthesize window, ipaBundler, artworkImageView, saveMenuItem, saveButton, progressSheet;
 
 
 - (id)init {
@@ -18,7 +18,7 @@
 	self = [super init];
 	
 	if (self != nil) {
-		self.ipaBundler = [Bundler new];
+		self.ipaBundler = [[IPABundler alloc] initWithDelegate:self];
 	}
 	
 	return self;
@@ -79,30 +79,27 @@
 }
 
 -(IBAction)saveIpa:(id)sender {
-	
-	@try {
-		
-		NSData *data = [self.ipaBundler buildIpa];
-		
-		if (data != nil) {
-			// save
-		} else {
-			[NSException raise:@"ipaError" format:@"Could not compile ipa bundle"];
-		}	
-	} @catch (NSException *theException) {
-		
-		// TODO: Process exceptions instead of displaying generic error stuff.
-		
-		NSAlert *alert = [NSAlert alertWithMessageText:@"Sorry" 
-										 defaultButton:@"OK" 
-									   alternateButton:nil 
-										   otherButton:nil 
-							 informativeTextWithFormat:@"Could not export ipa bundle."];
-		[alert runModal];
-	}
+	[NSApp beginSheet:self.progressSheet modalForWindow:self.window modalDelegate:self didEndSelector:NULL contextInfo:nil];	
+	[NSThread detachNewThreadSelector:@selector(bundle) toTarget:self.ipaBundler withObject:nil];
 }
 
+#pragma mark IPABundler delegates
 
+-(void)didFinishWithData:(NSData *)IPABundleData {
+	NSLog(@"Ready");
+	[NSApp endSheet:self.progressSheet];
+}
 
+-(void)didFailWithError:(NSError *)error {
+	
+	[NSApp endSheet:self.progressSheet];
+	
+	[[NSAlert alertWithMessageText:@"Sorry" 
+					defaultButton:@"OK" 
+				  alternateButton:nil 
+					  otherButton:nil 
+		informativeTextWithFormat:[error localizedDescription]] runModal];
+	
+}
 
 @end

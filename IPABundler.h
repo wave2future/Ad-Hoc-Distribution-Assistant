@@ -7,18 +7,22 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "IPABundlerDelegate.h"
 
 
-@interface Bundler : NSObject {
+@interface IPABundler : NSObject {
+	__weak NSObject <IPABundlerDelegate> *delegate;
 	NSURL *applicationURL;
 	NSURL *profileURL;
 	NSURL *artworkURL;	
 }
 
+@property (nonatomic, assign) NSObject <IPABundlerDelegate> *delegate;
 @property (nonatomic, copy) NSURL *applicationURL;
 @property (nonatomic, copy) NSURL *profileURL;
 @property (nonatomic, copy) NSURL *artworkURL;
 
-- (NSData *)buildIpa;
+-(id)initWithDelegate:(NSObject <IPABundlerDelegate> *)theDelegate;
+- (void)bundle;
 
 @end

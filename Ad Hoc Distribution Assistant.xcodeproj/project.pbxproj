@@ -12,7 +12,8 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		A390A76011CD49BF004F9D8B /* Bundler.m in Sources */ = {isa = PBXBuildFile; fileRef = A390A75F11CD49BF004F9D8B /* Bundler.m */; };
+		A34277E211CD8F2D0099059A /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A34277E111CD8F2D0099059A /* ProgressView.m */; };
+		A390A76011CD49BF004F9D8B /* IPABundler.m in Sources */ = {isa = PBXBuildFile; fileRef = A390A75F11CD49BF004F9D8B /* IPABundler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,11 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Ad_Hoc_Distribution_Assistant-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ad_Hoc_Distribution_Assistant-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ad Hoc Distribution Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ad Hoc Distribution Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A390A75E11CD49BF004F9D8B /* Bundler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bundler.h; sourceTree = "<group>"; };
-		A390A75F11CD49BF004F9D8B /* Bundler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bundler.m; sourceTree = "<group>"; };
+		A34277C611CD8C970099059A /* IPABundlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPABundlerDelegate.h; sourceTree = "<group>"; };
+		A34277E011CD8F2D0099059A /* ProgressSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressSheet.h; sourceTree = "<group>"; };
+		A34277E111CD8F2D0099059A /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		A390A75E11CD49BF004F9D8B /* IPABundler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPABundler.h; sourceTree = "<group>"; };
+		A390A75F11CD49BF004F9D8B /* IPABundler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPABundler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A342780911CD92EB0099059A /* Controllers */,
+				A34277DA11CD8EC20099059A /* Views */,
 				A390A75D11CD49A6004F9D8B /* Models */,
 				256AC3D80F4B6AC300CF3369 /* Ad_Hoc_Distribution_AssistantAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* Ad_Hoc_Distribution_AssistantAppDelegate.m */,
@@ -83,6 +89,7 @@
 		29B97314FDCFA39411CA2CEA /* Ad Hoc Distribution Assistant */ = {
 			isa = PBXGroup;
 			children = (
+				A34277BD11CD8C7B0099059A /* Protocols */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -120,11 +127,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A34277BD11CD8C7B0099059A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A34277C611CD8C970099059A /* IPABundlerDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		A34277DA11CD8EC20099059A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A34277E011CD8F2D0099059A /* ProgressSheet.h */,
+				A34277E111CD8F2D0099059A /* ProgressView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A342780911CD92EB0099059A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		A390A75D11CD49A6004F9D8B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A390A75E11CD49BF004F9D8B /* Bundler.h */,
-				A390A75F11CD49BF004F9D8B /* Bundler.m */,
+				A390A75E11CD49BF004F9D8B /* IPABundler.h */,
+				A390A75F11CD49BF004F9D8B /* IPABundler.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -186,7 +217,8 @@
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* Ad_Hoc_Distribution_AssistantAppDelegate.m in Sources */,
-				A390A76011CD49BF004F9D8B /* Bundler.m in Sources */,
+				A390A76011CD49BF004F9D8B /* IPABundler.m in Sources */,
+				A34277E211CD8F2D0099059A /* ProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

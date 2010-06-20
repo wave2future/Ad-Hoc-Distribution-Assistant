@@ -7,21 +7,23 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "Bundler.h"
+#import "IPABundler.h"
 
-@interface Ad_Hoc_Distribution_AssistantAppDelegate : NSObject <NSApplicationDelegate> {
+@interface Ad_Hoc_Distribution_AssistantAppDelegate : NSObject <NSApplicationDelegate, IPABundlerDelegate> {
     NSWindow *window;
-	Bundler *ipaBundler;
+	IPABundler *ipaBundler;
 	NSImageView *artworkImageView;
 	NSMenuItem *saveMenuItem;
 	NSButton *saveButton;	
+	NSWindow *progressSheet;
 }
 
 @property (assign) IBOutlet NSWindow *window;
-@property (assign) Bundler *ipaBundler;
+@property (assign) IPABundler *ipaBundler;
 @property (assign) IBOutlet NSImageView *artworkImageView;
 @property (assign) IBOutlet NSMenuItem *saveMenuItem;
 @property (assign) IBOutlet NSButton *saveButton;
+@property (assign) IBOutlet NSWindow *progressSheet;
 
 -(IBAction)chooseBinary:(id)sender;
 -(IBAction)chooseArtwork:(id)sender;
