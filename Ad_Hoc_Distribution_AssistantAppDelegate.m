@@ -37,6 +37,10 @@
 	[self.saveButton setEnabled:NO];
 }
 
+-(void)windowWillClose:(NSNotification *)notification {
+	[NSApp terminate:self.window];
+}
+
 
 -(IBAction)chooseBinary:(id)sender {
 	NSOpenPanel *panel = [NSOpenPanel openPanel];
