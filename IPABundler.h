@@ -15,12 +15,14 @@
 	NSURL *applicationURL;
 	NSURL *profileURL;
 	NSURL *artworkURL;	
+	NSString *applicationName;
 }
 
 @property (nonatomic, assign) NSObject <IPABundlerDelegate> *delegate;
 @property (nonatomic, copy) NSURL *applicationURL;
 @property (nonatomic, copy) NSURL *profileURL;
 @property (nonatomic, copy) NSURL *artworkURL;
+@property (nonatomic, copy) NSString *applicationName;
 
 -(id)initWithDelegate:(NSObject <IPABundlerDelegate> *)theDelegate;
 - (void)bundle;

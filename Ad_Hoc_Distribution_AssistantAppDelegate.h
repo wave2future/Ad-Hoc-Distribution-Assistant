@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "IPABundler.h"
+#import "ProgressSheet.h"
 
 @interface Ad_Hoc_Distribution_AssistantAppDelegate : NSObject <NSApplicationDelegate, IPABundlerDelegate> {
     NSWindow *window;
@@ -15,7 +16,7 @@
 	NSImageView *artworkImageView;
 	NSMenuItem *saveMenuItem;
 	NSButton *saveButton;	
-	NSWindow *progressSheet;
+	ProgressSheet *progressSheet;
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -23,7 +24,7 @@
 @property (assign) IBOutlet NSImageView *artworkImageView;
 @property (assign) IBOutlet NSMenuItem *saveMenuItem;
 @property (assign) IBOutlet NSButton *saveButton;
-@property (assign) IBOutlet NSWindow *progressSheet;
+@property (assign) IBOutlet ProgressSheet *progressSheet;
 
 -(IBAction)chooseBinary:(id)sender;
 -(IBAction)chooseArtwork:(id)sender;

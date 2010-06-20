@@ -13,6 +13,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A34277E211CD8F2D0099059A /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A34277E111CD8F2D0099059A /* ProgressView.m */; };
+		A342797E11CE42010099059A /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A342797D11CE42010099059A /* Icon.icns */; };
 		A390A76011CD49BF004F9D8B /* IPABundler.m in Sources */ = {isa = PBXBuildFile; fileRef = A390A75F11CD49BF004F9D8B /* IPABundler.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		A34277C611CD8C970099059A /* IPABundlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPABundlerDelegate.h; sourceTree = "<group>"; };
 		A34277E011CD8F2D0099059A /* ProgressSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressSheet.h; sourceTree = "<group>"; };
 		A34277E111CD8F2D0099059A /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		A342797D11CE42010099059A /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		A390A75E11CD49BF004F9D8B /* IPABundler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPABundler.h; sourceTree = "<group>"; };
 		A390A75F11CD49BF004F9D8B /* IPABundler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPABundler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A342797D11CE42010099059A /* Icon.icns */,
 				8D1107310486CEB800E47090 /* Ad_Hoc_Distribution_Assistant-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -205,6 +208,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				A342797E11CE42010099059A /* Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -55,7 +55,7 @@
 -(IBAction)chooseArtwork:(id)sender {
 	NSOpenPanel *panel = [NSOpenPanel openPanel];
 	[panel setCanChooseDirectories:NO];
-	[panel setAllowedFileTypes:[NSArray arrayWithObjects:@"png", @"jpg", @"jpeg", @"tiff", @"tif", nil]];
+	[panel setAllowedFileTypes:[NSArray arrayWithObjects:@"png", nil]];
 	[panel beginSheetModalForWindow:self.window completionHandler:^(NSInteger result) {
 		if (result ==  NSFileHandlingPanelOKButton) {			
 			self.ipaBundler.artworkURL = [[panel URLs] lastObject];
@@ -80,14 +80,38 @@
 
 -(IBAction)saveIpa:(id)sender {
 	[NSApp beginSheet:self.progressSheet modalForWindow:self.window modalDelegate:self didEndSelector:NULL contextInfo:nil];	
-	[NSThread detachNewThreadSelector:@selector(bundle) toTarget:self.ipaBundler withObject:nil];
+	[self.progressSheet.progressIndicator startAnimation:self];
+	[self.ipaBundler bundle];
 }
 
 #pragma mark IPABundler delegates
 
 -(void)didFinishWithData:(NSData *)IPABundleData {
-	NSLog(@"Ready");
+	[self.progressSheet close];
 	[NSApp endSheet:self.progressSheet];
+	
+	NSSavePanel *panel = [NSSavePanel savePanel];
+	[panel setAllowedFileTypes:[NSArray arrayWithObject:@"ipa"]];
+	[panel setCanCreateDirectories:YES];
+	[panel setCanSelectHiddenExtension:YES];
+	[panel setExtensionHidden:NO];
+	
+	NSString *documentsDirectory;
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+	if ([paths count] > 0)  {
+		documentsDirectory = [paths objectAtIndex:0];
+	}	
+	[panel setDirectoryURL:[NSURL fileURLWithPath:documentsDirectory]];
+	[panel beginSheetModalForWindow:self.window completionHandler:^(NSInteger result) {
+		if (result ==  NSFileHandlingPanelOKButton) {
+			
+			NSError *error;			
+			
+			if (![IPABundleData writeToURL:[panel URL] options:NSDataWritingAtomic error:&error]) {
+				[self didFailWithError:error];
+			}			
+		}
+	}];
 }
 
 -(void)didFailWithError:(NSError *)error {
